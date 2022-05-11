@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Truculenta:opsz,wght@12..72,300&display=swap');
+.banner {
+    background: linear-gradient(to top, #4facfea0 0%, #00f1fe74 100%), url('./foto2.jpeg');
+    background-position: center;
+    background-size: cover;
+}
+.nama{
+    font-size: 4.5em;
+    text-align: center ;
+    font-family: 'Dancing Script', cursive;
+    color: white;
+}
+.text{
+    font-size: 2em;
+    font-family: 'Truculenta', sans-serif;
+}
