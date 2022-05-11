@@ -1,10 +1,8 @@
 import { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
 import { db } from "../firebase";
-import { child, getDatabase, onValue, push, ref, set } from "firebase/database";
+import { child, onValue, push, ref, set } from "firebase/database";
 
 function Tamu() {
-  const [listTamu, setListTamu] = useState([]);
   const [tamu, setTamu] = useState({
     nama: "",
     alamat: "",
