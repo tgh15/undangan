@@ -23,8 +23,12 @@
     position: absolute;
     left: -100%;
     transition: all;
+    overflow-y: hidden;
+    box-sizing: border-box;
 }
 .right{
+    overflow-y: hidden;
     position: absolute;
     transition: all;
+    box-sizing: border-box;
 }
