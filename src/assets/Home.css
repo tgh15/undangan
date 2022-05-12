@@ -20,15 +20,19 @@
     font-family: 'Orbitron', sans-serif;
 }
 .left{
-    position: absolute;
-    left: -100%;
+    position: fixed;
     transition: all;
     overflow-y: hidden;
     box-sizing: border-box;
+    z-index: 2;
+    width: 0;
+    transition: all;
 }
 .right{
+    z-index: 2;
     overflow-y: hidden;
-    position: absolute;
+    position: fixed;
     transition: all;
     box-sizing: border-box;
+    width: 100%;
 }
